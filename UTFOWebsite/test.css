@@ -1,0 +1,64 @@
+
+
+.content{
+    padding-top: 100px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-animation-direction: normal;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardAreaLarge{
+    width: auto;
+    position: relative;
+}
+.cardArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+    padding: 40px;
+}
+
+.cardOuter {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #777;
+    border-radius: .25rem;
+}
+
+.cardHeader{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.cardBody{
+    font-size: .9rem;
+}
+
+.cardFooter{
+    margin-top: 1rem;
+}
+
+.articleType{
+    background: hsl(0, 0%, 100%);
+    color: rgb(112, 112, 112);
+    padding: .5em .75em;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: .35rem;
+    border-width: .1em;
+    border-color: rgb(228, 228, 228);
+}
+
+.articleType:hover, .btn:focus{
+    background: hsl(201, 55%, 94%);
+}
+
+.articleType + .articleType{
+    margin-left: .75rem;
+}
+
+div {
+    display: block;
+}
