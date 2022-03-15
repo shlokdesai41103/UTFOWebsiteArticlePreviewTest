@@ -3,7 +3,7 @@ body{
 }
 
 .card{
-    width: 20rem;
+    /* width: 20rem; */
     border-radius: .5rem;
 }
 
@@ -26,4 +26,12 @@ body{
 
 .card-img-top{
     padding: 2rem;
+}
+
+.card-container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
 }

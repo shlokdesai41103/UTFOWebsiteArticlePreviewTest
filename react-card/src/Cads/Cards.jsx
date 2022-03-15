@@ -7,7 +7,7 @@ import img1 from '../assets/GoogleDevML.png';
 class Cards extends Component{
     render(){
         return(
-            <div className="container-fluid d-flex justify-content-center">
+            <div className="card-container container-fluid d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-4">
                         <Card imgsrc={img1} title="article1" date="dd/mm/yyyy" author="Author Name" blurb="Article Summary Here"/>
