@@ -11,6 +11,7 @@ return(
         <div className="card-body text-dark">
             <h4 className="cardtitle">{props.title}</h4>
             <h6 className="carddate">{props.date}</h6>
+            <p className='carAuthor'>{props.author}</p>
             <p className="card-text text-secondary">{props.blurb}</p>
             <a href="#" className="btn btn-outline-success">Go Anywhere</a>
         </div>
