@@ -70,6 +70,8 @@ body{
 {
     margin-right: 5px;
     margin-left: 5px;
+    align-items: left;
+    margin-bottom: 10px;
     /*width: 100px;
     height: 32px;*/
 }
