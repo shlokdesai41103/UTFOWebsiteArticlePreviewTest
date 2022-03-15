@@ -12,7 +12,12 @@ body{
 }
 
 .card-body{
-    padding: 3rem 0 !important;
+    padding: 24px 0 !important;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    color: #202124;
 }
 
 .card-text{
@@ -28,13 +33,54 @@ body{
     padding: 2rem;
 }
 
-/* .card-container{
+.cardtitle{
+    font-family: "Google Sans Display", sans-serif;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-left: 35px;
+    display: black;
+    text-align: left;
+}
+
+.carddate{
+    font-family: "Roboto Mono",monospace;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    margin-left: 35px;
+    text-align: left;
+    margin-bottom: 24px;
+
+}
+
+.carAuthor{
+    margin-left: 35px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.card-text{
+    margin-left: 4px;
+    text-align: left;
+}
+
+.btn
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    /*width: 100px;
+    height: 32px;*/
+}
+.card-container{
     width: 65%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(auto,1fr));
     padding: 20px;
     grid-gap: 40px;
-} */
+} 
+
 .col-md-4{
     padding-top: 40px;
 }
